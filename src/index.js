@@ -16,6 +16,7 @@ app.use('/api',apiRoute)
 app.listen(ServerConfig.PORT,async()=>{
     console.log(`server started on PORT: ${ServerConfig.PORT}`)
     connect();
+    console.log("connect")
 
  /*Tweet.create(
    { 
