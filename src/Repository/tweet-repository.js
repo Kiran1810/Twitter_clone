@@ -1,6 +1,6 @@
-const {Tweet }=require('../models/tweets')
-const CrudRepository=require('./crud-repository')
 
+const CrudRepository=require('./crud-repository')
+const {Tweet }=require('../models/tweets')
 
  class TweetRepository extends CrudRepository{
     constructor(){
